@@ -1,14 +1,10 @@
 [package]
-name    = "uinput-sys"
-version = "0.1.7"
-
-authors = ["meh. <meh@schizofreni.co>"]
-license = "WTFPL"
+name = "uinput-sys"
+version = "0.1.8"
 
 description = "Linux uinput definitions."
-repository  = "https://github.com/meh/rust-uinput-sys"
-keywords    = ["linux", "input"]
+keywords = ["linux", "input"]
 
 [dependencies]
-libc      = "0.2"
+libc = "0.2"
 ioctl-sys = "0.5"
